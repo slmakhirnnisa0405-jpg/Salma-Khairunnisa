@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas UTS Desain Situs Web - Harold Lasswell</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4e7d3;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header{
+            background-color: #7b3f00;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        h1{
+            color: #ffe9c6;
+        }
+
+        .container{
+            width: 85%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+            margin-bottom: 25px;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td{
+            border: 1px solid #999;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th{
+            background-color: #7b3f00;
+            color: white;
+        }
+
+        marquee{
+            background-color: #d4a373;
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        form{
+            margin-top: 20px;
+        }
+
+        input, textarea{
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+        }
+
+        .radio-group{
+            margin-bottom: 15px;
+        }
+
+        .btn{
+            background-color: #7b3f00;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover{
+            background-color: #5e2f00;
+        }
+
+        footer{
+            text-align: center;
+            background-color: #7b3f00;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Profil Tokoh Ilmu Komunikasi</h1>
+    <h2>Harold Lasswell</h2>
+    <p>Disusun Oleh: <b>Salma Khairunnisa</b> | NIM: <b>41824168</b></p>
+</header>
+
+<div class="container">
+
+    <marquee behavior="scroll" direction="left">
+        "Who says What in Which Channel to Whom with What Effect?" - Harold Lasswell
+    </marquee>
+
+    <div class="card">
+        <h2 style="color:#7b3f00;">Latar Belakang Harold Lasswell</h2>
+
+        <p>
+            <b>Harold Dwight Lasswell</b> merupakan seorang ilmuwan politik dan ahli komunikasi asal 
+            <i>Amerika Serikat</i> yang lahir pada tanggal 13 Februari 1902. Ia dikenal sebagai salah satu 
+            tokoh penting dalam perkembangan ilmu komunikasi modern, terutama dalam kajian komunikasi massa 
+            dan propaganda. Lasswell banyak meneliti bagaimana media digunakan untuk memengaruhi masyarakat, 
+            khususnya pada masa perang.
+        </p>
+
+        <p>
+            Harold Lasswell terkenal dengan teori komunikasi yang dikenal sebagai 
+            <b>Model Komunikasi Lasswell</b>. Model ini menjelaskan bahwa komunikasi dapat dianalisis melalui 
+            lima pertanyaan utama yaitu <u>Who</u> (siapa), <u>Says What</u> (mengatakan apa), 
+            <u>In Which Channel</u> (melalui media apa), <u>To Whom</u> (kepada siapa), dan 
+            <u>With What Effect</u> (dengan efek apa). Teori ini menjadi dasar penting dalam memahami proses 
+            komunikasi massa hingga saat ini.
+        </p>
+
+        <p>
+            Kontribusi Harold Lasswell terhadap ilmu komunikasi sangat besar karena teorinya membantu para 
+            peneliti memahami pengaruh media terhadap masyarakat. Pemikirannya banyak digunakan dalam bidang 
+            jurnalistik, periklanan, hubungan masyarakat, hingga komunikasi politik. Selain itu, Lasswell juga 
+            dikenal melalui bukunya yang berjudul <i>Politics: Who Gets What, When, How</i> yang membahas 
+            kekuasaan dan distribusi sumber daya dalam politik.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2 style="color:#7b3f00;">Tabel Biodata Harold Lasswell</h2>
+
+        <table>
+            <tr>
+                <th>Nama Lengkap</th>
+                <th>Tanggal Lahir</th>
+                <th>Asal Negara</th>
+                <th>Teori Utama</th>
+                <th>Karya Buku Utama</th>
+            </tr>
+
+            <tr>
+                <td>Harold Dwight Lasswell</td>
+                <td>13 Februari 1902</td>
+                <td>Amerika Serikat</td>
+                <td>Model Komunikasi Lasswell</td>
+                <td>Politics: Who Gets What, When, How</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2 style="color:#7b3f00;">Formulir Aspirasi Teori Komunikasi</h2>
+
+        <form>
+            <label>Nama Lengkap:</label>
+            <input type="text" placeholder="Masukkan nama lengkap">
+
+            <label>Email:</label>
+            <input type="email" placeholder="Masukkan email">
+
+            <label>Pilih teori favorit Harold Lasswell:</label>
+
+            <div class="radio-group">
+                <input type="radio" name="teori"> Model Komunikasi Lasswell <br>
+                <input type="radio" name="teori"> Teori Propaganda <br>
+                <input type="radio" name="teori"> Analisis Media Massa
+            </div>
+
+            <label>Pesan atau Tanggapan:</label>
+            <textarea rows="5" placeholder="Tuliskan pesan atau tanggapan anda"></textarea>
+
+            <button type="submit" class="btn">Submit</button>
+            <button type="reset" class="btn">Reset</button>
+        </form>
+    </div>
+
+</div>
+
+<footer>
+    <p>Tugas Ujian Tengah Semester - Desain Situs Web</p>
+</footer>
+
+</body>
+</html>
